@@ -1,38 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+\*D_D Academy
 
-## Getting Started
+Welcome to D_D Academy! This open-source project is designed to establish a comprehensive, community-driven learning platform. It's like Udemy, but specifically tailored for the Developer DAO community.
 
-First, run the development server:
+Our mission is to empower developers by offering a platform where they can exchange and acquire knowledge through high-quality, peer-reviewed video content. We believe in the power of community and the importance of giving back, which is why this project is open-source.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+\*\*Main Features
+Community-Driven Content: The platform will host a wide range of video courses created by Developer DAO members, covering various topics in software development.
+Peer Review System: To ensure the quality of the content, all courses will go through a peer review process before being published.
+Interactive Learning: The platform will support interactive coding exercises and quizzes to reinforce learning.
+Tech Stack
+The project is primarily written in TypeScript, leveraging its static typing features for better maintainability and developer experience. We're also using a variety of modern technologies and frameworks to build a robust, scalable, and user-friendly platform.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+\*\*Contributing
+We welcome contributions from everyone, regardless of their experience level. If you're interested in contributing to this project, please check out our contributing guidelines.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+\*\*License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Join us in our mission to create a world-class learning platform for developers, by developers. Let's learn and grow together with D_D Academy!
