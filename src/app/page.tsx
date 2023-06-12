@@ -1,9 +1,15 @@
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import { Inter } from '@next/font/google';
+// import styles from "./page.module.css";
+import Link from 'next/link';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  return <main>HOME PAGE</main>;
+  return (
+    <main>
+      <Link href="/">Home</Link> |<Link href="/dashboard">Dashboard</Link> |
+      <Link href="/courses">Courses</Link>
+    </main>
+  );
 }
