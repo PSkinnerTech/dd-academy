@@ -1,30 +1,11 @@
-'use client';
-import { useRouter } from 'next/navigation';
+import { courses } from '@/data/courses';
 import Link from 'next/link';
 
-const courses = [
-  {
-    id: 1,
-    title: 'Becoming a Member of Developer DAO',
-    desc: "By taking this course, you'll be able to gain access...",
-    slug: 'ddmembership',
-  },
-  {
-    id: 2,
-    title: 'An Intro to Startups',
-    desc: 'Learn all about Startups in this course...',
-    slug: 'introstartups',
-  },
-];
-
 export default function Courses() {
-  const router = useRouter();
   return (
     <div>
       <h1>Courses</h1>
-
-      <button onClick={() => router.push('/')}>Home</button>
-
+      <Link href="/">Home</Link>
       {courses.map((course) => (
         <div key={course.id}>
           <h2>{course.title}</h2>
@@ -34,4 +15,10 @@ export default function Courses() {
       ))}
     </div>
   );
+}
+
+export async function generateStaticParams() {
+  // neet to fetch data from external
+  // It should be server side rendered
+  return courses.map((course) => course.slug);
 }
